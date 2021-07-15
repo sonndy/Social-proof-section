@@ -4,10 +4,126 @@
     margin: 0;
 }
 
-.content {
-    /* background-color: red; */
-    margin-top: 10px;
+
+/* Global Styles */
+
+.main {
+    width: min(90%, 50rem);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
 }
+
+
+.attribution {
+    margin-top: 20px;
+}
+
+/* Page Heading and Heading Content */
+
+.page-header h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: hsl(300, 43%, 22%);
+}
+
+.heading-content {
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    margin-bottom: 40px;
+}
+
+/* Stars and Report Guru */
+.stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* .ratings {
+    background-color: aqua;
+} */
+
+.rating {
+    width: min(90%);
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+}
+
+.rating:last-child {
+    margin-bottom: 50px;
+}
+
+
+.rating section {
+    font-weight: 600;
+    color: hsl(300, 43%, 22%);
+}
+
+
+
+/* Profile and Reviews */
+
+.profile {
+    display: flex;
+}
+
+.profile img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile h2 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.content {
+    background-color: hsl(300, 43%, 22%);
+    margin-left: auto;
+    margin-right: auto;
+    width: min(90%);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.verified {
+    color: hsl(333, 80%, 67%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .content{
     background-color: yellow;
