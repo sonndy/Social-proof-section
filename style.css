@@ -8,7 +8,7 @@
 /* Global Styles */
 
 .main {
-    width: min(90%, 80%);
+    width: min(90%);
     margin-left: auto;
     margin-right: auto;
     font-family: 'Spartan', sans-serif;
@@ -82,9 +82,9 @@
 /* Profile and Reviews */
 
 .profile {
-    
-    justify-content: center;
-    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
 }
 
 .profile img {
@@ -124,13 +124,11 @@
 }
 
 
-/* Media query for tablet and Desktop */
-
-
 @media (min-width: 1400px){
 
     .main {
         margin-top: 70px;
+        width: min(80%);
     }
     
    .page-header {
