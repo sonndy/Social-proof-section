@@ -130,7 +130,7 @@
 @media (min-width: 1400px){
 
     .main {
-        margin-top: 150px;
+        margin-top: 70px;
     }
     
    .page-header {
@@ -150,7 +150,7 @@
    .heading-content {
        text-align: left;
        font-size: 16px;
-       width: min(400px);
+       width: min(500px, 600px);
    }
 
    .ratings {
@@ -188,7 +188,7 @@
    .page-content {
        display: flex;
        height: 300px;
-       margin-top: 50px;
+       margin-top: 30px;
        align-items: flex-start;
    }
 
@@ -199,7 +199,7 @@
 
    .profile {
         display: flex;
-    /* justify-content: center; */
+        justify-content: flex-start;
     
    }
 
