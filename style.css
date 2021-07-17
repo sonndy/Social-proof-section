@@ -8,7 +8,7 @@
 /* Global Styles */
 
 .main {
-    width: min(90%, 50rem);
+    width: min(90%);
     margin-left: auto;
     margin-right: auto;
     font-family: 'Spartan', sans-serif;
@@ -29,27 +29,35 @@
     text-align: center;
     font-size: 32px;
     color: hsl(300, 43%, 22%);
+    
 }
+
+
 
 .heading-content {
     text-align: center;
     color: hsl(303, 10%, 53%);
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 40px;
+    line-height: 25px;
+    width: min(90%, 80%);
+    /* text-align:center; */
+
 }
 
 /* Stars and Report Guru */
 .stars {
     display: flex;
+    align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-/* .ratings {
-    background-color: aqua;
-} */
 
 .rating {
-    width: min(90%);
+    width: min(90%, 80%);
+    align-items: center;
     text-align: center;
     margin-top: 15px;
     padding-top: 15px;
@@ -76,6 +84,8 @@
 
 .profile {
     display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
 }
 
 .profile img {
@@ -98,7 +108,7 @@
     background-color: hsl(300, 43%, 22%);
     margin-left: auto;
     margin-right: auto;
-    width: min(90%);
+    width: min(90%, 80%);
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 25px;
@@ -115,6 +125,98 @@
 }
 
 
+@media (min-width: 1400px){
+
+    .main {
+        margin-top: 70px;
+        width: min(80%);
+    }
+    
+   .page-header {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .page-header h1 {
+       text-align: left;
+       margin: 0;
+       margin-bottom: 20px;
+       width: 400px;
+       font-size: 50px;
+       line-height: 48px;
+   }
+
+   .heading-content {
+       text-align: left;
+       font-size: 16px;
+       width: min(500px, 600px);
+   }
+
+   .ratings {
+       width: min(500px);
+       align-items: center;
+       
+   }
+
+   .rating {
+       display: flex;
+       justify-content: space-around;
+       
+   }
+
+   .one {
+       margin-left: -60px;
+       width: 500px;
+   }
+
+   .two {
+       margin-left: -30px;
+       width: 500px;
+   }
+
+   .three {
+       width: 500px;
+   }
+
+   .stars {
+       width: 100px;
+       justify-content: space-around;
+       margin-bottom: 0;
+   }
+
+   .page-content {
+       display: flex;
+       height: 300px;
+       margin-top: 30px;
+       align-items: flex-start;
+   }
+
+   .content {
+       padding: 30px;
+       width: min(350px);
+   }
+
+   .profile {
+        display: flex;
+        justify-content: flex-start;
+    
+   }
+
+   .first {
+       margin-left: 0;
+       /* align-self: start; */
+   }
+
+   .second {
+       margin-top: 35px;
+   }
+
+   .third {
+       margin-top: 60px;
+   }
+
+   
+}
 
 
 
@@ -124,8 +226,3 @@
 
 
 
-
-
-/* .content{
-    background-color: yellow;
-} */
