@@ -22,7 +22,7 @@ body {
 
 
 .attribution {
-    /* margin-top: 20px; */
+    margin-top: 20px;
     /* padding-bottom: 50px; */
 }
 
@@ -129,18 +129,28 @@ body {
     color: hsl(333, 80%, 67%);
 }
 
-.background-top {
+.background-bottom-mobile {
     position: absolute;
-    top: -100px;
-    left: -40px;
+    /* top: 10px; */
+    bottom: 50px;
+    /* background-color: red; */
 }
 
-.background-bottom {
+.background-top-mobile {
     position: absolute;
-    top: 7px;
-    left: 300px;
-    
+    top: -60px;
 }
+
+
+
+.background-top-desktop {
+    display: none;
+}
+
+.background-bottom-desktop {
+    display: none;
+}
+
 
 
 @media (min-width: 1400px){
@@ -232,6 +242,30 @@ body {
    .third {
        margin-top: 60px;
    }
+
+   .background-top-desktop{
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: -40px;
+}
+
+.background-bottom-desktop{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    
+}
+
+.background-bottom-mobile {
+    display: none;
+}
+
+.background-top-mobile {
+    display: none;
+}
+
 
    
 }
