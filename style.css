@@ -7,6 +7,11 @@
 
 /* Global Styles */
 
+body {
+    position: relative;
+    /* overflow: hidden; */
+}
+
 .main {
     width: min(90%);
     margin-left: auto;
@@ -17,8 +22,8 @@
 
 
 .attribution {
-    margin-top: 20px;
-    padding-bottom: 50px;
+    /* margin-top: 20px; */
+    /* padding-bottom: 50px; */
 }
 
 /* Page Heading and Heading Content */
@@ -122,6 +127,19 @@
 
 .verified {
     color: hsl(333, 80%, 67%);
+}
+
+.background-top {
+    position: absolute;
+    top: -100px;
+    left: -40px;
+}
+
+.background-bottom {
+    position: absolute;
+    top: 7px;
+    left: 300px;
+    
 }
 
 
