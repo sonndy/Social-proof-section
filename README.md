@@ -13,7 +13,10 @@
 
 ### Screenshot
 
+#### Desktop Design
 ![Desktop Design](/images/desktopdesign.png)
+
+#### Mobile Design
 ![Mobile Design](/images/mobiledesign.png)
 
 ### Links
