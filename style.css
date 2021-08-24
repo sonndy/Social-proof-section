@@ -155,7 +155,9 @@ body {
 
 
 @media (min-width: 1400px){
-
+    body {
+        height: 100vh;
+    }
     .main {
         margin-top: 70px;
         width: min(80%);
